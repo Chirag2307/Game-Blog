@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+    --font1:'Righteous', cursive;
+    --font2:'Ubuntu', sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.navigation {
+    font-family: var(--font1);
+    height: 70px;
+    /*background-color: red;*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-left {
+    
+font-size: 28px;
+display: flex;
+}
+.nav-left ul li{
+    list-style: none;
+    font-size:16px ;
+    margin:0px 25px ;
+    
+    
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+}
+.nav-left ul li a {
+    font-family: var(--font2);
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.nav-left ul li a:hover {
+    font-size: 18px;
+    
+    transition: 0.3s;
+}
+.nav-right button {
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.content {
+    height: 95px;
+    /* background-color: green; */
+}
+
+.footer {
+    height: 50px;
+    /* background-color: blue; */
+}
+.form-input{
+    padding: 2px;
+    font-size: 11px;
+    border-radius: 2px;
+    border: 2px black solid;
+    margin: 0 2px;
+}
